@@ -18,10 +18,12 @@ The following parts are used by the script:
 * metadata in UCI HAR Dataset:
   * activity_labels.txt: cross reference between identifications of activities and their short names
   * features.txt: names of measurement variables
+
 The script does not use the signal recordings themselves.
 For more information on the input data, please refer to:
 * http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 * The file features_info.txt in the data directory UCI HAR Dataset or in this GitHub repository
+
 ##Output data
 The output is written to analysis_results.txt in the R working directory.
 For more information on the output data please refer to file CodeBook.md in this GitHub repository.
