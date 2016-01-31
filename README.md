@@ -31,28 +31,30 @@ For more information on the output data please refer to file CodeBook.md in this
 ##Logic
 The script merges the estimated variables and additional vectors of the test and train data.
 Only estimated variables that are mean values or standard deviations are extracted.
+
 Variable names, identications and short names of activities, and identifications of subjects are added.
 Variable names are cleaned up: non digits and letters are replaced by a period ('.'). In addition, abbrevations 't' and 'f' for time and frequency are replaced by 'time' and 'freq' in order to make names more readable.
+
 The estimated variables are summarized by taking their average by combinations of activities and subjects.
 ##Steps
 The script does the following steps:
-0. Read data
+1. Read data
   * Set directories
   * Read variable names for measurements
   * Read mapping between activity ids and activity names
   * Read measurements
   * Read activity ids for measurements
   * Read subject ids (people ids) for measurements
-1. Merge the training and the test sets to create one data set
-2. Extracts only the measurements on the mean and standard deviation for each measurement
+2. Merge the training and the test sets to create one data set
+3. Extracts only the measurements on the mean and standard deviation for each measurement
   * Only pairs of mean and standard deviation of measurements are included
   * For example tBodyAcc-mean()-X and tBodyAcc-std()-X are included, but angle(X,gravityMean) and fBodyAcc-meanFreq()-X are excluded
-3. Use descriptive activity names to name the activities in the data set
+4. Use descriptive activity names to name the activities in the data set
   * Also the subject ids are added for future use
-4. Appropriately label the data set with descriptive variable names
+5. Appropriately label the data set with descriptive variable names
   * In the measurement variables, all (sequences of) non digits and non letters are converted to a period (.)
   * Initial letters 't' and 'f' are converted to 'time' and 'freq' respectively in order to make names more readable
-5. From the data set, create a second, independent tidy data set with the average of each variable for each activity and each subject
+6. From the data set, create a second, independent tidy data set with the average of each variable for each activity and each subject
   * The dplyr package is loaded
   * Variables are grouped by activity and by subject
   * Over the groups, the average of the non grouping variables is calculated
