@@ -9,14 +9,14 @@ In addition there are estimated variables and also additional vectors obtained b
 The following parts are used by the script:
 * test data in UCI HAR Dataset/test:
   * test/X_test.txt: estimated variables and additional vectors
-  * test/y_test.txt: identifications of activities performed (e.g., WALKING)
-  * test/subject_test.txt: identifications of subjects (persons) performing the activities
+  * test/y_test.txt: identifiers of activities performed (e.g., WALKING)
+  * test/subject_test.txt: identifiers of subjects (persons) performing the activities
 * train data in UCI HAR Dataset/train:
   * X_train.txt: estimated variables and additional vectors
-  * y_train.txt: identifications of activities performed (e.g., WALKING)
-  * subject_train.txt: identifications of subjects (persons) performing the activities
+  * y_train.txt: identifiers of activities performed (e.g., WALKING)
+  * subject_train.txt: identifiers of subjects (persons) performing the activities
 * metadata in UCI HAR Dataset:
-  * activity_labels.txt: cross reference between identifications of activities and their short names
+  * activity_labels.txt: cross reference between identifiers of activities and their short names
   * features.txt: names of measurement variables
 
 The script does not use the signal recordings themselves.
@@ -32,7 +32,7 @@ For more information on the output data please refer to file CodeBook.md in this
 The script merges the estimated variables and additional vectors of the test and train data.
 Only estimated variables that are mean values or standard deviations are extracted.
 
-Variable names, identications and short names of activities, and identifications of subjects are added.
+Variable names, identications and short names of activities, and identifiers of subjects are added.
 Variable names are cleaned up: non digits and letters are replaced by a period ('.'). In addition, abbrevations 't' and 'f' for time and frequency are replaced by 'time' and 'freq' in order to make names more readable.
 
 The estimated variables are summarized by taking their average by combinations of activities and subjects.
