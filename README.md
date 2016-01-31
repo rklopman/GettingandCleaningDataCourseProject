@@ -1,7 +1,7 @@
 #Script run_analysis.R
 #Introduction
 ##Summary and usage
-The script takes Samsung data from the R working directory as input, summarizes estimated variables that are mean values and standard deviations by taking their average by activity an subject. It also adds activity names and cleans up variable names. The results are written to the file analysis_results.txt in the R working directory.
+The script takes smartphone data from the R working directory as input, summarizes estimated variables that are mean values and standard deviations by taking their average by activity an subject. It also adds activity names and cleans up variable names. The results are written to the file analysis_results.txt in the R working directory.
 ##Input data
 The input data is assumed to be in a folder 'UCI HAR Dataset'.
 The data contains recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
