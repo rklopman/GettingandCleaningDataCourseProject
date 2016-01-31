@@ -1,7 +1,7 @@
 #Script run_analysis.R
 #Introduction
 ##Summary and usage
-The script takes smartphone data from the R working directory as input, summarizes estimated variables that are mean values and standard deviations by taking their average by activity an subject. It also adds activity names and cleans up variable names. The results are written to the file analysis_results.txt in the R working directory.
+The script takes smartphone data from the R working directory as input, summarizes estimated variables that are mean values and standard deviations by taking their average by activity an subject. It also adds activity names and cleans up variable names. The results are stored into the variable avgActSubjMeanStdData and written to the file analysis_results.txt in the R working directory.
 ##Input data
 The input data is assumed to be in a folder 'UCI HAR Dataset'.
 The data contains recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
@@ -36,6 +36,7 @@ Variable names, identications and short names of activities, and identifiers of 
 Variable names are cleaned up: non digits and letters are replaced by a period ('.'). In addition, abbrevations 't' and 'f' for time and frequency are replaced by 'time' and 'freq' in order to make names more readable.
 
 The estimated variables are summarized by taking their average by combinations of activities and subjects.
+Variable names are modified accordingly to show that the estimated variables are summarized.
 ##Steps
 The script does the following steps:
 * 0) Read data
