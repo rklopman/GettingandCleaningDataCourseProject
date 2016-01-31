@@ -1,4 +1,4 @@
-#CodeBook for data produced by script run_analysis.R
+A#CodeBook for data produced by script run_analysis.R
 #Introduction
 This is the codebook of the data produced by running the script 'run_analysis.R' on smartphone data. 
 #Study design and summary choices

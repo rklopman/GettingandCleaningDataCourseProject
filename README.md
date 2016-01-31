@@ -1,4 +1,4 @@
-#Explanation for script run_analysis.R
+A#Explanation for script run_analysis.R
 #Introduction
 ##Summary and usage
 The script takes smartphone data from the R working directory as input, summarizes estimated variables that are mean values and standard deviations by taking their average by activity an subject. It also adds activity names and cleans up variable names. The results are stored into the variable 'avgActSubjMeanStdData' and written to the file 'analysis_results.txt' in the R working directory.
