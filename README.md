@@ -38,23 +38,23 @@ Variable names are cleaned up: non digits and letters are replaced by a period (
 The estimated variables are summarized by taking their average by combinations of activities and subjects.
 ##Steps
 The script does the following steps:
-1. Read data
+    1. Read data
   * Set directories
   * Read variable names for measurements
   * Read mapping between activity ids and activity names
   * Read measurements
   * Read activity ids for measurements
   * Read subject ids (people ids) for measurements
-2. Merge the training and the test sets to create one data set
-3. Extracts only the measurements on the mean and standard deviation for each measurement
+    2. Merge the training and the test sets to create one data set
+    3. Extracts only the measurements on the mean and standard deviation for each measurement
   * Only pairs of mean and standard deviation of measurements are included
   * For example tBodyAcc-mean()-X and tBodyAcc-std()-X are included, but angle(X,gravityMean) and fBodyAcc-meanFreq()-X are excluded
-4. Use descriptive activity names to name the activities in the data set
+    4. Use descriptive activity names to name the activities in the data set
   * Also the subject ids are added for future use
-5. Appropriately label the data set with descriptive variable names
+    5. Appropriately label the data set with descriptive variable names
   * In the measurement variables, all (sequences of) non digits and non letters are converted to a period (.)
   * Initial letters 't' and 'f' are converted to 'time' and 'freq' respectively in order to make names more readable
-6. From the data set, create a second, independent tidy data set with the average of each variable for each activity and each subject
+    6. From the data set, create a second, independent tidy data set with the average of each variable for each activity and each subject
   * The dplyr package is loaded
   * Variables are grouped by activity and by subject
   * Over the groups, the average of the non grouping variables is calculated
