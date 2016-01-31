@@ -86,7 +86,7 @@ mergedMeanStdData <- mergedData[,mergedMeanStdIndex]
 
 #3: Use descriptive activity names to name the activities in the data set
 
-#also the subject ids are added for future use
+#Also the subject ids are added for future use
 
 mergedActSubjMeanStdData <-
     cbind(mergedActivities, mergedSubjects, mergedMeanStdData)
