@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Script run_analysis.R
 #Introduction
 ##Summary
@@ -6,3 +7,7 @@ The script takes Samsung data from the working directory as input, summarizes me
 The input data consists of recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
 
+=======
+# GettingandCleaningDataCourseProject
+Files for the course project of the Getting and Cleaning Data Course
+>>>>>>> 940ef4a45f0951c6f856cd951b779c0c890957d4
