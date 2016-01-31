@@ -31,43 +31,43 @@ Fixed variables are:
 ##Measured variables
 
 * avg.timeBodyAcc.mean.X, avg.timeBodyAcc.mean.Y, avg.timeBodyAcc.mean.Z
-  * Description: 
+  * Description: average value for combinations of activity and subject, calculated for mean body linear acceleration signal in time domain. The variables are for the 3 dimensions (x, y, z respectively).
   * Type: numeric
   * Unit: seconds
 * avg.timeBodyAcc.std.X, avg.timeBodyAcc.std.Y, avg.timeBodyAcc.std.Z
-  * Description: 
+  * Description: average value for combinations of activity and subject, calculated for standard deviation of body linear acceleration signal in time domain. The variables are for the 3 dimensions (x, y, z respectively).
   * Type: numeric
   * Unit: seconds
 * avg.timeGravityAcc.mean.X, avg.timeGravityAcc.mean.Y, avg.timeGravityAcc.mean.Z
-  * Description: 
+  * Description: average value for combinations of activity and subject, calculated for mean gravity linear acceleration signal in time domain. The variables are for the 3 dimensions (x, y, z respectively).
   * Type: numeric
   * Unit: seconds
 * avg.timeGravityAcc.std.X, avg.timeGravityAcc.std.Y, avg.timeGravityAcc.std.Z
-  * Description: 
+  * Description: average value for combinations of activity and subject, calculated for standard deviation of gravity linear acceleration signal in time domain. The variables are for the 3 dimensions (x, y, z respectively).
   * Type: numeric
   * Unit: seconds
 * avg.timeBodyAccJerk.mean.X, avg.timeBodyAccJerk.mean.Y, avg.timeBodyAccJerk.mean.Z
-  * Description: 
+  * Description: average value for combinations of activity and subject, calculated for mean body linear acceleration Jerk time signal. The variables are for the 3 dimensions (x, y, z respectively).
   * Type: numeric
   * Unit: seconds
 * avg.timeBodyAccJerk.std.X, avg.timeBodyAccJerk.std.Y, avg.timeBodyAccJerk.std.Z
-  * Description: 
+  * Description: average value for combinations of activity and subject, calculated for standard deviation of body linear acceleration Jerk time signal. The variables are for the 3 dimensions (x, y, z respectively).
   * Type: numeric
   * Unit: seconds
 * avg.timeBodyGyro.mean.X, avg.timeBodyGyro.mean.Y, avg.timeBodyGyro.mean.Z
-  * Description: 
+  * Description: average value for combinations of activity and subject, calculated for mean body angular velocity signal in time domain. The variables are for the 3 dimensions (x, y, z respectively).
   * Type: numeric
   * Unit: seconds
 * avg.timeBodyGyro.std.X, avg.timeBodyGyro.std.Y, avg.timeBodyGyro.std.Z
-  * Description: 
+  * Description: average value for combinations of activity and subject, calculated for standard deviation of body angular velocity signal in time domain. The variables are for the 3 dimensions (x, y, z respectively).
   * Type: numeric
   * Unit: seconds
 * avg.timeBodyGyroJerk.mean.X, "avg.timeBodyGyroJerk.mean.Y, avg.timeBodyGyroJerk.mean.Z
-  * Description: 
+  * Description: average value for combinations of activity and subject, calculated for mean body angular velocity Jerk time signal. The variables are for the 3 dimensions (x, y, z respectively).
   * Type: numeric
   * Unit: seconds
 * avg.timeBodyGyroJerk.std.X, avg.timeBodyGyroJerk.std.Y, avg.timeBodyGyroJerk.std.Z
-  * Description: 
+  * Description: average value for combinations of activity and subject, calculated for standard deviation of body angular velocity Jerk time signal. The variables are for the 3 dimensions (x, y, z respectively).
   * Type: numeric
   * Unit: seconds
 * avg.timeBodyAccMag.mean
@@ -111,27 +111,27 @@ Fixed variables are:
   * Type: numeric
   * Unit: seconds
 * avg.freqBodyAcc.mean.X, avg.freqBodyAcc.mean.Y, avg.freqBodyAcc.mean.Z
-  * Description: 
+  * Description: average value for combinations of activity and subject, calculated for mean body linear acceleration signal in frequency domain. The variables are for the 3 dimensions (x, y, z respectively).
   * Type: numeric
   * Unit: Hertz
 * avg.freqBodyAcc.std.X, avg.freqBodyAcc.std.Y, avg.freqBodyAcc.std.Z
-  * Description: 
+  * Description: average value for combinations of activity and subject, calculated for standard deviation of body linear acceleration signal in frequency domain. The variables are for the 3 dimensions (x, y, z respectively).
   * Type: numeric
   * Unit: Hertz
 * avg.freqBodyAccJerk.mean.X, avg.freqBodyAccJerk.mean.Y, avg.freqBodyAccJerk.mean.Z
-  * Description: 
+  * Description: average value for combinations of activity and subject, calculated for mean body linear acceleration Jerk frequency signal. The variables are for the 3 dimensions (x, y, z respectively).
   * Type: numeric
   * Unit: Hertz
 * avg.freqBodyAccJerk.std.X" "avg.freqBodyAccJerk.std.Y, avg.freqBodyAccJerk.std.Z
-  * Description: 
+  * Description: average value for combinations of activity and subject, calculated for standard deviation of body linear acceleration Jerk frequency signal. The variables are for the 3 dimensions (x, y, z respectively).
   * Type: numeric
   * Unit: Hertz
 * avg.freqBodyGyro.mean.X, avg.freqBodyGyro.mean.Y, avg.freqBodyGyro.mean.Z
-  * Description: 
+  * Description: average value for combinations of activity and subject, calculated for mean body angular velocity signal in frequency domain. The variables are for the 3 dimensions (x, y, z respectively).
   * Type: numeric
   * Unit: Hertz
 * avg.freqBodyGyro.std.X, avg.freqBodyGyro.std.Y, avg.freqBodyGyro.std.Z
-  * Description: 
+  * Description: average value for combinations of activity and subject, calculated for standard deviation of body angular velocity signal in frequency domain. The variables are for the 3 dimensions (x, y, z respectively).
   * Type: numeric
   * Unit: Hertz
 * avg.freqBodyAccMag.mean
