@@ -1,7 +1,7 @@
-#0: Read data
+#This script takes smartphone data from the R working directory as input, summarizes estimated variables that are mean values and standard deviations by taking their average by activity an subject. It also adds activity names and cleans up variable names. The results are stored into the variable 'avgActSubjMeanStdData' and written to the file 'analysis_results.txt' in the R working directory.
+#Please refer to README.md and CodeBook.md for more information.
 
-#Only for testing purposes
-#setwd("C:\\back\\Werk1\\Bigdata\\Training\\coursera\\assignments\\course_3-getting_and_cleaning_data\\")
+#0: Read data
 
 #Set directories
 dataDir <- "UCI HAR Dataset"
