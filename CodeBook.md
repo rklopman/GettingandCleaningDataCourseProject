@@ -5,14 +5,15 @@ This is the codebook of the data produced by running the script run_analysis.R o
 ##Fixed variables
 Fixed variables are:
 * activity.id: identification of activity
-  Type: integer
-  Unit: not applicable
+  ** Type: integer
+  ** Unit: not applicable
 * activity.name: short name of activity (e.g., WALKING)
-  Type: character
-  Unit: not applicable
+  ** Type: character
+  ** Unit: not applicable
 * subject.id: identification of subject (person) doing the activity
-  Type: integer
-  Unit: not applicable
+  ** Type: integer
+  ** Unit: not applicable
+
 ##Measured variables
 #Summary choices and study design
 ##Summary choices
