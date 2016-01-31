@@ -1,13 +1,13 @@
-#CodeBook Getting and Cleaning Data Course Project
+#CodeBook for data produced by script run_analysis.R
 #Introduction
-This is the codebook of the data produced by running the script run_analysis.R on smartphone data. 
+This is the codebook of the data produced by running the script 'run_analysis.R' on smartphone data. 
 #Study design and summary choices
 ##Study design
 The data is collected from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 The input data contains 10299 observations with 561 measured variables. The obtained dataset has been randomly partitioned into two sets (70% training data and 30% test data).
 For more information on the input data, please refer to:
 * http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-* The file features_info.txt in the data directory UCI HAR Dataset or in this GitHub repository
+* The file 'features_info.txt' in the directory 'UCI HAR Dataset' of the input data or in this GitHub repository
 
 ##Summary choices
 Measured variables are calculated by taking the average value of the original measured variables that are extracted.

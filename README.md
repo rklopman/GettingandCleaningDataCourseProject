@@ -1,32 +1,32 @@
-#Script run_analysis.R
+#Explanation for script run_analysis.R
 #Introduction
 ##Summary and usage
-The script takes smartphone data from the R working directory as input, summarizes estimated variables that are mean values and standard deviations by taking their average by activity an subject. It also adds activity names and cleans up variable names. The results are stored into the variable avgActSubjMeanStdData and written to the file analysis_results.txt in the R working directory.
+The script takes smartphone data from the R working directory as input, summarizes estimated variables that are mean values and standard deviations by taking their average by activity an subject. It also adds activity names and cleans up variable names. The results are stored into the variable 'avgActSubjMeanStdData' and written to the file 'analysis_results.txt' in the R working directory.
 ##Input data
 The input data is assumed to be in a folder 'UCI HAR Dataset'.
 The data contains recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 In addition there are estimated variables and also additional vectors obtained by averaging the signals in a signal window sample.
 The following parts are used by the script:
-* test data in UCI HAR Dataset/test:
+* test data in directory 'UCI HAR Dataset/test':
   * test/X_test.txt: estimated variables and additional vectors
   * test/y_test.txt: identifiers of activities performed (e.g., WALKING)
   * test/subject_test.txt: identifiers of subjects (persons) performing the activities
-* train data in UCI HAR Dataset/train:
+* train data in directory 'UCI HAR Dataset/train':
   * X_train.txt: estimated variables and additional vectors
   * y_train.txt: identifiers of activities performed (e.g., WALKING)
   * subject_train.txt: identifiers of subjects (persons) performing the activities
-* metadata in UCI HAR Dataset:
+* metadata in directory 'UCI HAR Dataset':
   * activity_labels.txt: cross reference between identifiers of activities and their short names
   * features.txt: names of measurement variables
 
 The script does not use the signal recordings themselves.
 For more information on the input data, please refer to:
 * http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-* The file features_info.txt in the data directory UCI HAR Dataset or in this GitHub repository
+* The file 'features_info.txt' in the directory 'UCI HAR Dataset' of the input data or in this GitHub repository
 
 ##Output data
-The output is written to analysis_results.txt in the R working directory.
-For more information on the output data please refer to file CodeBook.md in this GitHub repository.
+The output is written to the file 'analysis_results.txt' in the R working directory.
+For more information on the output data please refer to file 'CodeBook.md' in this GitHub repository.
 #Transformations by the script
 ##Logic
 The script merges the estimated variables and additional vectors of the test and train data.
