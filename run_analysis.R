@@ -1,4 +1,4 @@
-A#0: Read data
+#0: Read data
 
 #Only for testing purposes
 #setwd("C:\\back\\Werk1\\Bigdata\\Training\\coursera\\assignments\\course_3-getting_and_cleaning_data\\")
