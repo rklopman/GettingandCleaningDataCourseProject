@@ -1,6 +1,13 @@
 #CodeBook Getting and Cleaning Data Course Project
 #Introduction
 This is the codebook of the data produced by running the script run_analysis.R on smartphone data. 
+#Study design and summary choices
+##Study design
+The data is collected from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+The input data contains 10299 observations with 561 measured variables.
+##Summary choices
+Measured variables are calculated by taking the average value of the original measured variables that are extracted.
+This is done per combination of activity and subject.
 #Variables
 ##Fixed variables
 Fixed variables are:
@@ -52,13 +59,4 @@ Fixed variables are:
 * avg.freqBodyBodyGyroMag.std
 * avg.freqBodyBodyGyroJerkMag.mean
 * avg.freqBodyBodyGyroJerkMag.std
-
-#Summary choices and study design
-##Summary choices
-Measured variables are calculated by taking the average value of the original measured variables that are extracted.
-This is done per combination of activity and subject.
-##Study design
-The data is collected from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
-The input data contains 10299 observations with 561 measured variables.
-
 
